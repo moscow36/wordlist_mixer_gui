@@ -87,7 +87,7 @@ text_words.grid(row=2, column=1, padx=4, pady=5, columnspan=2)
 ttk.Button(root, text="Save", command=save_wordlist).pack(pady=16)
 
 # Tips
-tip = tk.Label(root, text="Tip: Each line is a word. All possible combinations will be created.", fg="#666", font=('Segoe UI', 9))
+tip = tk.Label(root, text="from https://github.com/moscow36/wordlist_mixer_gui", fg="#666", font=('Segoe UI', 9))
 tip.pack()
 
 root.mainloop()
